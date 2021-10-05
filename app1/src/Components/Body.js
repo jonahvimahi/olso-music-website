@@ -7,19 +7,19 @@ const Body = () => {
 				<div id="comeHomeColdDiv">
 					<iframe
 						id="comeHomeEmbedding"
+						className="songEmbedment"
 						title="Come Home"
 						src="https://open.spotify.com/embed/track/0tAAlZJ39X9SG5Tw8ubLgP?theme=1"
 						allowTransparency="true"
-						height="350vh"
 						frameBorder="0"
 						allowfullscreen=""
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 					></iframe>
 					<iframe
 						id="coldEmbedding"
+						className="songEmbedment"
 						title="Cold"
 						src="https://open.spotify.com/embed/track/1kni4OdbmFPZsH3hxWGCXS?theme=1"
-						height="350vh"
 						frameBorder="0"
 						allowfullscreen=""
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -28,9 +28,9 @@ const Body = () => {
 				<div id="foolDiv">
 					<iframe
 						id="foolEmbedding"
+						className="songEmbedment"
 						title="Fool"
 						src="https://open.spotify.com/embed/track/61pMmoHEwW3PnghmZW1IMm"
-						height="80"
 						frameBorder="0"
 						allowfullscreen=""
 						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"

@@ -1,28 +1,44 @@
 #spotifyEmbedding {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 	align-items: flex-end;
 	padding: 5vh 0vh;
 }
-#foolDiv{
-    display: flex;
+#foolDiv {
+	display: flex;
 	align-items: center;
 	justify-content: center;
-	
- 
 }
 #comeHomeEmbedding {
-    margin-right: 2.5vw;
+	height: 300px;
+	margin-right: 2.5vw;
 	background: none transparent;
-	width: 15vw;
+	width: 16vw;
 }
-#coldEmbedding{
-    margin-right: 5vw;
+#coldEmbedding {
+	height: 300px;
+	margin-right: 5vw;
 	background: none transparent;
-	width: 15vw;
+	width: 16vw;
 }
-#foolEmbedding{
-    padding: 2.5vh 0px;
-    margin-right: 5vw;
-    width: 32.5vw;
+#foolEmbedding {
+	padding: 2.5vh 0px;
+	margin-right: 5vw;
+	width: 34.5vw;
+    height: 80px;
+}
+
+@media screen and (max-width: 600px) {
+	#spotifyEmbedding {
+		flex-direction: column;
+		align-items: center;
+	}
+	#comeHomeColdDiv {
+		display: flex;
+		flex-direction: column;
+	}
+	.songEmbedment {
+		width: 100%;
+		height: 25px;
+	}
 }
