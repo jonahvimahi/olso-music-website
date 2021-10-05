@@ -1,0 +1,27 @@
+.mainNav {
+    width: 100vw;
+    height: 7vh;
+    background-color: #222222;
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.test {
+    width: 50vw;
+    border: solid white 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 5.5vh;
+    width: 8.5vw;
+    background-image: url('../content/icons/OLSOlogo21.png');
+    background-size: cover;
+    
+}
+

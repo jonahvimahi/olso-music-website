@@ -1,13 +1,19 @@
 import React, {Component} from 'react';
 import './App.css';
-import Nav from './Nav';
+import './Reset.css'
+import Home from './Components/Home'
+
 
 export default class App extends Component  {
   render(){
     return(
-      <>
-        <Nav />
-      </>
+      <div>
+        <div className="backGround ">
+        <Home />
+
+        </div>
+
+      </div>
     )
   }
 }
