@@ -1,0 +1,11 @@
+#spotifyEmbedding {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	padding: 5vh 0vh;
+}
+#comeHomeEmbedding {
+    margin-right: 5vw;
+	background: none transparent;
+	width: 15vw;
+}

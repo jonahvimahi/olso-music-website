@@ -1,52 +1,45 @@
 .mainNav {
-    width: 100vw;
-    height: 7vh;
-    background-color: #222222;
-    display: flex;
+	width: 100vw;
+	height: 7vh;
+	background-color: #222222a9;
+	display: flex;
+    padding: 1vh 0vh;
 }
 
 .hidden {
-    display: none;
+	display: none;
 }
 
 .test {
-    width: 50vw;
-    border: solid white 2px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: inherit;
+	width: 50vw;
+	/* border: solid white 2px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
+.test2 {
+    height: inherit;
+	width: 50vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#olsoLogo{
+    filter: invert(0);
+    height: inherit;
+}
 .logo {
-    height: 5.5vh;
-    width: 8.5vw;
-    background-image: url('../content/icons/OLSOlogo21.png');
-    background-size: cover;
-    background-color: yellowgreen;
+	height: 3vh;
+	filter: invert(1);
 }
 
 .logoLink {
-    color: white;
-    height: 2vh;
-    width: 2vw;
+    padding: 1vh 1vh;
+	color: white;
+	/* height: 5vh; */
+	width: 2vw;
 }
 
-.spotify {
-    /* background-image: url('../content/icons/spotify-icon.png'); */
-    background-image: url('https://e1.pngegg.com/pngimages/532/220/png-clipart-spotify-for-macos-spotify-logo.png');
-    background-size: contain;
-    height: 2.8vh;
-    width: 1.52vw;
-}
 
-.apple {
-    background-image: url('../content/icons/apple-icon.png');
-}
 
-.soundcloud {
-    background-image: url('../content/icons/soundcloud-icon.png');
-}
-
-.youtube {
-    background-image: url('../content/icons/youtube-icon.png');
-}
