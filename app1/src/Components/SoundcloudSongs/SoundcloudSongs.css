@@ -1,0 +1,115 @@
+@font-face {
+	font-family: "Avenir";
+	src: url(../../content/fonts/Avenir\ Black.ttf);
+}
+
+#soundCloudTitle {
+	font-family: "Avenir";
+	margin-bottom: 5vh;
+	color: white;
+	font-size: 35px;
+}
+#soundCloudEmbedding {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: inherit;
+}
+
+#freeEmbedding {
+	height: 115px;
+	width: 34.5vw;
+	font-size: 10px;
+	color: #9331b9;
+	line-break: anywhere;
+	word-break: normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+		Garuda, Verdana, Tahoma, sans-serif;
+	font-weight: 100;
+}
+#allEyesEmbedding {
+	height: 115px;
+	width: 34.5vw;
+	margin-top: 2.5vh;
+	font-size: 10px;
+	color: #9331b9;
+	line-break: anywhere;
+	word-break: normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+		Garuda, Verdana, Tahoma, sans-serif;
+	font-weight: 100;
+}
+#cryBirdEmbedding {
+	height: 115px;
+	width: 34.5vw;
+	margin-top: 2.5vh;
+	font-size: 10px;
+	color: #9331b9;
+	line-break: anywhere;
+	word-break: normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+		Garuda, Verdana, Tahoma, sans-serif;
+	font-weight: 100;
+}
+#shadowDancesEmbedding {
+	height: 115px;
+	width: 34.5vw;
+	margin-top: 2.5vh;
+	font-size: 10px;
+	color: #9331b9;
+	line-break: anywhere;
+	word-break: normal;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+		Garuda, Verdana, Tahoma, sans-serif;
+	font-weight: 100;
+}
+@media screen and (max-width: 768px) {
+	*{
+		overscroll-behavior: none;
+	}
+	#pageContent{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#soundCloudEmbedding {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#freeEmbedding {
+		height: 150px;
+		width: 350px;
+		padding: 2.5vh 0px;
+	}
+	#allEyesEmbedding {
+		height: 150px;
+		width: 350px;
+		padding: 2.5vh 0px;
+	}
+	#cryBirdEmbedding {
+		height: 150px;
+		width: 350px;
+		padding: 2.5vh 0px;
+	}
+	#shadowDancesEmbedding {
+		height: 150px;
+		width: 350px;
+		padding: 2.5vh 0px;
+	}
+	#soundCloudTitle {
+		margin-top: 0vh;
+	}
+}

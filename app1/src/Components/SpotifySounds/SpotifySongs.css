@@ -1,0 +1,67 @@
+@font-face {
+	font-family: "Avenir";
+	src: url(../../content/fonts/Avenir\ Black.ttf);
+}
+#spotifyTitle {
+	font-family: "Avenir";
+	margin-top: 9.5vh;
+	margin-bottom: 5vh;
+	color: white;
+	font-size: 35px;
+}
+#spotifyEmbedding {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3vh 0vh;
+}
+#comeHomeEmbedding {
+	height: 300px;
+	margin-right: 2.5vw;
+	background: none transparent;
+	width: 16vw;
+}
+#coldEmbedding {
+	height: 300px;
+	background: none transparent;
+	width: 16vw;
+}
+#foolEmbedding {
+	padding: 2.5vh 0px;
+	width: 34.5vw;
+	height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+	#spotifyEmbedding {
+		flex-direction: column;
+		align-items: center;
+	}
+	#comeHomeColdDiv {
+		display: flex;
+		flex-direction: column;
+	}
+	.songEmbedment {
+		width: 100%;
+		height: 25px;
+	}
+	#spotifyTitle {
+		margin-top: 0vh;
+		position: center;
+	}
+	#comeHomeEmbedding {
+		height: 100px;
+		width: 350px;
+		padding: 2.5vh 0px;
+	}
+	#coldEmbedding {
+		height: 100px;
+		width: 350px;
+		padding: 2.5vh 0px;
+	}
+	#foolEmbedding {
+		height: 100px;
+		width: 350px;
+		padding: 2.5vh 0px;
+	}
+}

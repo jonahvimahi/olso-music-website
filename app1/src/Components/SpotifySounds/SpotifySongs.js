@@ -1,9 +1,10 @@
 import React from "react";
-import "./Body.css";
-const Body = () => {
+import "./SpotifySongs.css";
+const SpotifySongs = () => {
 	return (
 		<div id="body">
 			<div id="spotifyEmbedding">
+				<h1 id="spotifyTitle">Original Songs</h1>
 				<div id="comeHomeColdDiv">
 					<iframe
 						id="comeHomeEmbedding"
@@ -40,4 +41,4 @@ const Body = () => {
 		</div>
 	);
 };
-export default Body;
+export default SpotifySongs;

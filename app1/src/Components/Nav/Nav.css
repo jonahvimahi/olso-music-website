@@ -1,15 +1,18 @@
 .mainNav {
-	width: 100vw;
+	width: inherit;
 	height: auto;
 	background-color: #222222a9;
 	display: flex;
 	padding: 1vh 0vh;
+	position: fixed;
 }
 
 .hidden {
 	display: none;
 }
-
+.spacer{
+	width: 5.3vw;
+}
 .test {
 	height: 7vh;
 	width: 50vw;
@@ -25,6 +28,8 @@
 	justify-content: center;
 	align-items: center;
 }
+
+
 #olsoLogo {
 	filter: invert(0);
 	height: inherit;
@@ -40,9 +45,13 @@
 	/* height: 5vh; */
 	width: 2vw;
 }
-@media screen and (max-width: 600px) {
+.logoLink:hover{
+	cursor:pointer;
+}
+@media screen and (max-width: 768px) {
 	.mainNav {
 		flex-direction: column;
+		position: relative
 	}
 	.test2 {
         width: 100%;
@@ -54,3 +63,4 @@
 		width: 100%;
 	}
 }
+

@@ -1,13 +1,13 @@
 import React from "react";
 import "./Nav.css";
-import logo from "../content/icons/OLSOlogo21.png";
-import spotify from "../content/icons/spotify-icon.png";
-import applemusic from "../content/icons/applemusic-icon.png";
-import soundcloud from "../content/icons/soundcloud-icon.png";
-import youtube from "../content/icons/youtube-icon.png";
-import instagram from "../content/icons/instagram-icon.png";
-import twitter from "../content/icons/twitter-icon.png";
-import facebook from "../content/icons/facebook-icon.png";
+import logo from "../../content/icons/OLSOlogo21.png";
+import spotify from "../../content/icons/spotify-icon.png";
+import applemusic from "../../content/icons/applemusic-icon.png";
+import soundcloud from "../../content/icons/soundcloud-icon.png";
+import youtube from "../../content/icons/youtube-icon.png";
+import instagram from "../../content/icons/instagram-icon.png";
+import twitter from "../../content/icons/twitter-icon.png";
+import facebook from "../../content/icons/facebook-icon.png";
 
 const Nav = () => {
 	return (
@@ -16,8 +16,9 @@ const Nav = () => {
 				<img id="olsoLogo"className="logo" alt="OLSO logo" src={logo}></img>
 				{/* <div  alt="Olso Logo" i className="logo"></div> */}
 			</div>
+			<div className="spacer"></div>
 			<div className="test2">
-				<a
+				<a 
 					href="https://open.spotify.com/artist/28neehTq16uiEbRUScBjS9?si=fAN7nSoUTEa79OHLVUQG8A&dl_branch=1"
           className="logoLink"
 					id="logoLink spotify"

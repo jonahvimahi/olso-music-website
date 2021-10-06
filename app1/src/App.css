@@ -1,7 +1,19 @@
 .backGround {
-  background-position: center;
+	background-attachment: fixed;
+	background-position: 55% top;
 	background-image: url("./content/photos/olso-music-mic.jpeg");
-	height: 100vh;
-	width: 100%;
-	background-size: cover;
+	height: auto;
+	width: auto;
+	/* background-size: cover; */
+}
+::-webkit-scrollbar {
+	width: .5em;
+	color: black;
+}
+::-webkit-scrollbar-track{
+	background-color: black;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #413f3fa9;
+	border-radius: 5px;
 }
